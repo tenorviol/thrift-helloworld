@@ -15,4 +15,4 @@ $client = new HelloWorldClient($protocol);
 $stdout->open();
 
 $send = implode(' ', array_slice($_SERVER['argv'], 1));
-$client->send($send);
+$client->hello($send);

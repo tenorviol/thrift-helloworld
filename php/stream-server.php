@@ -10,7 +10,7 @@ require_once $GLOBALS['THRIFT_ROOT'].'/transport/TBufferedTransport.php';
 require_once $GLOBALS['THRIFT_ROOT'].'/packages/helloworld/HelloWorld.php';
 
 class HelloWorldHandler implements HelloWorldIf {
-	public function send($juicy) {
+	public function hello($juicy) {
 		$time = time();
 		echo "$time\t$juicy\n";
 	}

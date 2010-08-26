@@ -1,3 +1,3 @@
 service HelloWorld {
-	oneway void send(1:string juicy)
+	oneway void hello(1:string juicy)
 }
